@@ -43,9 +43,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5TS-bX-q6v">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="x3u-Xp-CZk"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Main" id="Tqt-gq-aA0"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="5TS-bX-q6v" firstAttribute="centerX" secondItem="I01-2f-Wik" secondAttribute="centerX" id="4Nu-We-obk"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sax-do-h6k" secondAttribute="bottom" constant="312" id="75h-bS-Sej"/>
                             <constraint firstItem="sax-do-h6k" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="291" id="DqQ-Ta-Lni"/>
                             <constraint firstItem="U0X-kj-TTZ" firstAttribute="centerX" secondItem="sax-do-h6k" secondAttribute="centerX" id="Mhj-eo-Bwh"/>
@@ -55,6 +66,8 @@
                             <constraint firstItem="U0X-kj-TTZ" firstAttribute="top" secondItem="sax-do-h6k" secondAttribute="bottom" constant="46" id="bBZ-DC-haK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sax-do-h6k" secondAttribute="trailing" constant="55" id="c3B-T0-epm"/>
                             <constraint firstItem="sax-do-h6k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="55" id="d83-n2-hym"/>
+                            <constraint firstItem="5TS-bX-q6v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mET-Bd-XhN"/>
+                            <constraint firstItem="5TS-bX-q6v" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nZN-ya-6Hh"/>
                             <constraint firstItem="I01-2f-Wik" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="72" id="o1C-TZ-7q2"/>
                             <constraint firstItem="U0X-kj-TTZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="trS-zG-TZ2"/>
                             <constraint firstItem="I01-2f-Wik" firstAttribute="centerX" secondItem="sax-do-h6k" secondAttribute="centerX" id="x00-Pi-Ydy"/>
@@ -77,14 +90,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0G9-2g-Xf3">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <items>
-                                    <navigationItem title="Survey" id="wja-XK-X5f"/>
-                                </items>
-                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8t-iQ-L22">
                                 <rect key="frame" x="79" y="556" width="233" height="48"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -192,6 +197,17 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0G9-2g-Xf3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="8gl-zE-ajB"/>
+                                </constraints>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <items>
+                                    <navigationItem title="Survey" id="wja-XK-X5f"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -230,8 +246,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YcE-PW-KEg">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1yX-nc-MW0"/>
+                                </constraints>
                                 <items>
                                     <navigationItem title="Results" id="MnT-uC-W0R">
                                         <barButtonItem key="leftBarButtonItem" style="plain" systemItem="done" id="7fC-JI-pHL">
