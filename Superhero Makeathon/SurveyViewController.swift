@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 
-
 class SurveyViewController: UIViewController {
     
     @IBAction func nextButton(_ sender: Any) {
@@ -23,4 +22,6 @@ class SurveyViewController: UIViewController {
         amountOfPeople.text = String(sender.value)
     }
     
+    
+   
 }
