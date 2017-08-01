@@ -19,7 +19,7 @@ class SurveyViewController: UIViewController {
     @IBOutlet weak var amountOfPeople: UILabel!
     
     @IBAction func stepper(_ sender: UIStepper) {
-        amountOfPeople.text = String(sender.value)
+        amountOfPeople.text = String(Int(sender.value))
     }
     
     
