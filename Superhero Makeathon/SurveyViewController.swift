@@ -11,7 +11,7 @@ import UIKit
 
 
 class SurveyViewController: UIViewController {
-    
+    //People
     @IBAction func nextButton(_ sender: Any) {
     }
     
@@ -21,8 +21,12 @@ class SurveyViewController: UIViewController {
     @IBAction func stepper(_ sender: UIStepper) {
         amountOfPeople.text = String(Int(sender.value))
     }
+    //Exercise
+    
+    @IBOutlet weak var exerciseBool: UISegmentedControl!
     
     
+    //Hungry
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var label: UILabel!
     
@@ -31,6 +35,7 @@ class SurveyViewController: UIViewController {
         let currentValue = Int(slider.value)
         label.text = "\(currentValue)"
     }
+    
     //Passing data to ResultViewController
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

@@ -208,6 +208,7 @@
                     </view>
                     <connections>
                         <outlet property="amountOfPeople" destination="w3o-1Q-r4P" id="Fst-AL-EpD"/>
+                        <outlet property="exerciseBool" destination="WVZ-WD-6tQ" id="X0m-2u-DeQ"/>
                         <outlet property="label" destination="ZHL-mL-Y57" id="z9K-bg-XU1"/>
                         <outlet property="slider" destination="5uK-LT-XdX" id="cdR-ex-jrE"/>
                     </connections>
@@ -232,7 +233,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Results" id="MnT-uC-W0R"/>
+                                    <navigationItem title="Results" id="MnT-uC-W0R">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="done" id="7fC-JI-pHL">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="PKT-aM-tSd"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hulk .png" translatesAutoresizingMaskIntoConstraints="NO" id="me4-gO-jcI">
