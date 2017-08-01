@@ -10,12 +10,18 @@ import Foundation
 import UIKit
 
 
- class SurveyViewController:UIViewController {
+ /*class SurveyViewController:UIViewController {
     
     @IBOutlet weak var amountOfPeople: UILabel!
     
     @IBAction func stepper(_ sender: UIStepper) {
         amountOfPeople.text = String(sender.value)
     }
+    
+    
+    @IBAction func nextButton(_ sender: Any) {
+    }
 }
+*/
+
 

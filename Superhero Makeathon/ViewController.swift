@@ -22,7 +22,9 @@ class ViewController: UIViewController {
 
 
     
-    @IBAction func surveyButton(_ sender: Any) {
+    @IBAction func goToSurvey(_ sender: Any) {
     }
+
+
 }
 

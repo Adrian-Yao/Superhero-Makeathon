@@ -30,8 +30,8 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="surveyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Kn-DU-fWO"/>
-                                    <segue destination="0VU-Ec-ps7" kind="show" id="NUZ-Zp-0G6"/>
+                                    <action selector="goToSurvey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vy6-ul-OLY"/>
+                                    <segue destination="0VU-Ec-ps7" kind="show" id="g6v-MY-lHV"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rice.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="I01-2f-Wik">
@@ -95,12 +95,11 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="surveyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UAz-YL-vE5"/>
-                                    <segue destination="JML-q0-C7o" kind="show" id="cUN-6N-5rU"/>
+                                    <segue destination="JML-q0-C7o" kind="show" id="qd4-G5-n4k"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="z8b-mz-Ufz">
-                                <rect key="frame" x="38" y="129" width="370.5" height="325"/>
+                                <rect key="frame" x="38" y="129" width="382.5" height="325"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="neZ-41-N5n">
@@ -114,10 +113,6 @@
                                             </label>
                                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="Vqe-tJ-4PD">
                                                 <rect key="frame" x="72.5" y="0.0" width="94" height="29"/>
-                                                <connections>
-                                                    <action selector="amountOfPeople:" destination="0VU-Ec-ps7" eventType="valueChanged" id="1PY-5Y-KOG"/>
-                                                    <action selector="stepper:" destination="0VU-Ec-ps7" eventType="valueChanged" id="6bt-w1-ftc"/>
-                                                </connections>
                                             </stepper>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3o-1Q-r4P">
                                                 <rect key="frame" x="186.5" y="0.0" width="8" height="29"/>
@@ -165,7 +160,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kSg-7f-AJi">
-                                        <rect key="frame" x="0.0" y="295" width="370.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="295" width="382.5" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Hungry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmQ-CE-u8n">
                                                 <rect key="frame" x="0.0" y="0.0" width="56.5" height="30"/>
@@ -174,7 +169,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uK-LT-XdX">
-                                                <rect key="frame" x="54.5" y="0.0" width="318" height="31"/>
+                                                <rect key="frame" x="54.5" y="0.0" width="330" height="31"/>
                                             </slider>
                                         </subviews>
                                     </stackView>
@@ -183,10 +178,6 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <connections>
-                        <outlet property="amountOfPeople" destination="w3o-1Q-r4P" id="BsF-fl-rgX"/>
-                        <outlet property="labelShowingPeople" destination="w3o-1Q-r4P" id="aj7-n5-LxH"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R4r-Dd-fsz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
