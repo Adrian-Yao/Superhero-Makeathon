@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E7A7FE71F30C4B900E130CC /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A7FE61F30C4B900E130CC /* SurveyViewController.swift */; };
 		5E86A8621F2BD47B0000CC7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86A8611F2BD47B0000CC7E /* AppDelegate.swift */; };
 		5E86A8641F2BD47B0000CC7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86A8631F2BD47B0000CC7E /* ViewController.swift */; };
 		5E86A8671F2BD47B0000CC7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E86A8651F2BD47B0000CC7E /* Main.storyboard */; };
@@ -15,10 +16,10 @@
 		5E86A8751F2F72930000CC7E /* rice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E86A8741F2F72930000CC7E /* rice.jpg */; };
 		5E86A8791F2FBEA40000CC7E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86A8781F2FBEA40000CC7E /* ResultViewController.swift */; };
 		5E86A87B1F2FCC0B0000CC7E /* hulk .png in Resources */ = {isa = PBXBuildFile; fileRef = 5E86A87A1F2FCC0B0000CC7E /* hulk .png */; };
-		5E86A87D1F301A210000CC7E /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86A87C1F301A210000CC7E /* SurveyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E7A7FE61F30C4B900E130CC /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 		5E86A85E1F2BD47B0000CC7E /* Superhero Makeathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Superhero Makeathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E86A8611F2BD47B0000CC7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E86A8631F2BD47B0000CC7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		5E86A8741F2F72930000CC7E /* rice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rice.jpg; path = ../../../../rice.jpg; sourceTree = "<group>"; };
 		5E86A8781F2FBEA40000CC7E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		5E86A87A1F2FCC0B0000CC7E /* hulk .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hulk .png"; path = "../../../../hulk .png"; sourceTree = "<group>"; };
-		5E86A87C1F301A210000CC7E /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		5E86A8601F2BD47B0000CC7E /* Superhero Makeathon */ = {
 			isa = PBXGroup;
 			children = (
-				5E86A87C1F301A210000CC7E /* SurveyViewController.swift */,
+				5E7A7FE61F30C4B900E130CC /* SurveyViewController.swift */,
 				5E86A8611F2BD47B0000CC7E /* AppDelegate.swift */,
 				5E86A8631F2BD47B0000CC7E /* ViewController.swift */,
 				5E86A8781F2FBEA40000CC7E /* ResultViewController.swift */,
@@ -161,7 +161,7 @@
 			files = (
 				5E86A8641F2BD47B0000CC7E /* ViewController.swift in Sources */,
 				5E86A8621F2BD47B0000CC7E /* AppDelegate.swift in Sources */,
-				5E86A87D1F301A210000CC7E /* SurveyViewController.swift in Sources */,
+				5E7A7FE71F30C4B900E130CC /* SurveyViewController.swift in Sources */,
 				5E86A8791F2FBEA40000CC7E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

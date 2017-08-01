@@ -10,7 +10,12 @@ import Foundation
 import UIKit
 
 
- /*class SurveyViewController:UIViewController {
+
+class SurveyViewController: UIViewController {
+    
+    @IBAction func nextButton(_ sender: Any) {
+    }
+    
     
     @IBOutlet weak var amountOfPeople: UILabel!
     
@@ -18,10 +23,4 @@ import UIKit
         amountOfPeople.text = String(sender.value)
     }
     
-    
-    @IBAction func nextButton(_ sender: Any) {
-    }
 }
-*/
-
-
