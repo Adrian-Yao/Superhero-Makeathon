@@ -175,7 +175,7 @@
                                                     <constraint firstAttribute="width" constant="100" id="yaM-aK-0MY"/>
                                                 </constraints>
                                                 <connections>
-                                                    <action selector="slider:" destination="0VU-Ec-ps7" eventType="valueChanged" id="vLb-m9-xJW"/>
+                                                    <action selector="valueChanged:" destination="0VU-Ec-ps7" eventType="valueChanged" id="jBi-1r-6GM"/>
                                                 </connections>
                                             </slider>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHL-mL-Y57">
@@ -204,6 +204,8 @@
                     </view>
                     <connections>
                         <outlet property="amountOfPeople" destination="w3o-1Q-r4P" id="Fst-AL-EpD"/>
+                        <outlet property="label" destination="ZHL-mL-Y57" id="z9K-bg-XU1"/>
+                        <outlet property="slider" destination="5uK-LT-XdX" id="cdR-ex-jrE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R4r-Dd-fsz" userLabel="First Responder" sceneMemberID="firstResponder"/>

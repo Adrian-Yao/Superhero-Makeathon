@@ -23,5 +23,13 @@ class SurveyViewController: UIViewController {
     }
     
     
-   
+    @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var label: UILabel!
+    
+    
+    @IBAction func valueChanged(_ sender: Any) {
+        var currentValue = Int(slider.value)
+        label.text = "\(currentValue)"
+    }
+    
 }
