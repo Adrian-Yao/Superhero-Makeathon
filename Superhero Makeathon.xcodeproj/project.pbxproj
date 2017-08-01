@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5E7A7FE71F30C4B900E130CC /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A7FE61F30C4B900E130CC /* SurveyViewController.swift */; };
+		5E7A7FE91F30F0C800E130CC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A7FE81F30F0C800E130CC /* ResultViewController.swift */; };
 		5E86A8621F2BD47B0000CC7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86A8611F2BD47B0000CC7E /* AppDelegate.swift */; };
 		5E86A8641F2BD47B0000CC7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86A8631F2BD47B0000CC7E /* ViewController.swift */; };
 		5E86A8671F2BD47B0000CC7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E86A8651F2BD47B0000CC7E /* Main.storyboard */; };
 		5E86A8691F2BD47B0000CC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E86A8681F2BD47B0000CC7E /* Assets.xcassets */; };
 		5E86A86C1F2BD47B0000CC7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E86A86A1F2BD47B0000CC7E /* LaunchScreen.storyboard */; };
 		5E86A8751F2F72930000CC7E /* rice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E86A8741F2F72930000CC7E /* rice.jpg */; };
-		5E86A8791F2FBEA40000CC7E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86A8781F2FBEA40000CC7E /* ResultViewController.swift */; };
 		5E86A87B1F2FCC0B0000CC7E /* hulk .png in Resources */ = {isa = PBXBuildFile; fileRef = 5E86A87A1F2FCC0B0000CC7E /* hulk .png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E7A7FE61F30C4B900E130CC /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		5E7A7FE81F30F0C800E130CC /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		5E86A85E1F2BD47B0000CC7E /* Superhero Makeathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Superhero Makeathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E86A8611F2BD47B0000CC7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E86A8631F2BD47B0000CC7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		5E86A86B1F2BD47B0000CC7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E86A86D1F2BD47C0000CC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E86A8741F2F72930000CC7E /* rice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rice.jpg; path = ../../../../rice.jpg; sourceTree = "<group>"; };
-		5E86A8781F2FBEA40000CC7E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		5E86A87A1F2FCC0B0000CC7E /* hulk .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hulk .png"; path = "../../../../hulk .png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,10 +63,10 @@
 		5E86A8601F2BD47B0000CC7E /* Superhero Makeathon */ = {
 			isa = PBXGroup;
 			children = (
+				5E7A7FE81F30F0C800E130CC /* ResultViewController.swift */,
 				5E7A7FE61F30C4B900E130CC /* SurveyViewController.swift */,
 				5E86A8611F2BD47B0000CC7E /* AppDelegate.swift */,
 				5E86A8631F2BD47B0000CC7E /* ViewController.swift */,
-				5E86A8781F2FBEA40000CC7E /* ResultViewController.swift */,
 				5E86A8651F2BD47B0000CC7E /* Main.storyboard */,
 				5E86A8681F2BD47B0000CC7E /* Assets.xcassets */,
 				5E86A86A1F2BD47B0000CC7E /* LaunchScreen.storyboard */,
@@ -162,7 +162,7 @@
 				5E86A8641F2BD47B0000CC7E /* ViewController.swift in Sources */,
 				5E86A8621F2BD47B0000CC7E /* AppDelegate.swift in Sources */,
 				5E7A7FE71F30C4B900E130CC /* SurveyViewController.swift in Sources */,
-				5E86A8791F2FBEA40000CC7E /* ResultViewController.swift in Sources */,
+				5E7A7FE91F30F0C800E130CC /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

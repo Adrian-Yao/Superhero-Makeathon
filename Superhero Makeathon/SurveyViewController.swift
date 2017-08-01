@@ -28,8 +28,15 @@ class SurveyViewController: UIViewController {
     
     
     @IBAction func valueChanged(_ sender: Any) {
-        var currentValue = Int(slider.value)
+        let currentValue = Int(slider.value)
         label.text = "\(currentValue)"
     }
+    //Passing data to ResultViewController
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+    let resultViewController = segue.destination as! ResultViewController
+    
+    resultViewController.rice = amountOfPeople.text
+}
 }
